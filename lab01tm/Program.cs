@@ -1,15 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace lab01tm
+﻿public class Person
 {
-    class Program
+    private string name;
+    private string lastname;
+
+    public Person(string name, string lastname)
     {
-        static void Main(string[] args)
-        {
-        }
+        this.name = name;
+        this.lastname = lastname;
+    }
+
+    public void tirar()
+    {
+        random
     }
 }
