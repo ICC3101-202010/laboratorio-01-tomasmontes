@@ -11,6 +11,9 @@
 
     public void tirar()
     {
-        random
+        Random aleatorio = new Random();
+        int numero;
+        numero = aleatorio.next(0, 3);
+        Console.WriteLine(" el numero es" + numero);
     }
 }
