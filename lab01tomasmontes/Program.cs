@@ -9,11 +9,20 @@ class MainClass
 {
     public static void Main(string[] args)
     {
+        Random Aleatorio = new Random();
+        int Numero;
+        Numero = Aleatorio.Next(0, 3);
+        
+        
         Person p1 = new Person("Bob", "kunga");
         Console.WriteLine(p1.GetName());
         Console.WriteLine(p1.GetLastname());
-        Console.WriteLine("el numero es" + GetNumero);
+        Console.WriteLine("el numero es");
+        Console.WriteLine(Numero);
+
+        Console.ReadKey();
     }
+
 }
 
 public class Person
@@ -27,16 +36,14 @@ public class Person
         this.Name = Name;
         this.Lastname = Lastname;
     }
-    
-    public void Tirar()
+
+    public void Lanzar()
     {
-        
         Random Aleatorio = new Random();
         int Numero;
         Numero = Aleatorio.Next(0, 3);
-
     }
-
+   
     public string GetName()
     {
         return Name;
