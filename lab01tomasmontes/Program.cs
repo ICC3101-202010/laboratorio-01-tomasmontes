@@ -15,9 +15,9 @@ class MainClass
         
         
         Person p1 = new Person("Bob", "kunga");
-        Console.WriteLine(p1.GetName());
-        Console.WriteLine(p1.GetLastname());
-        Console.WriteLine("el numero es");
+        //Console.WriteLine(p1.GetName());
+        //Console.WriteLine(p1.GetLastname());
+        //Console.WriteLine("el numero es");
         Console.WriteLine(Numero);
 
         Console.ReadKey();
